@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Segment } from 'semantic-ui-react'
 
-const src = './assets/Resume.png'
+const src = './assets/HZulkoskiResume.png'
 
 const Resume = () => {
   return (

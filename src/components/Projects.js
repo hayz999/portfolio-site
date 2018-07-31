@@ -6,6 +6,20 @@ class Projects extends Component {
   render () {
     return (
       <div className='contact-container'>
+        <Segment color='green' className='card-content'>
+          <Modal trigger={<Image className='project-image' src='./assets/bankOnIt.png' size='big' />} closeIcon>
+            <Modal.Header>About BankOnIt</Modal.Header>
+            <Modal.Content >
+              <Image fluid centered size='big' src='./assets/bankOnIt.png' />
+              <Modal.Description>
+                <p>BankOnIt was my final project as a student at Galvanize. The challenge of this project was to learn 1 new technology, so I learned 4.  I found this really awesome csv file on data.gov that detailed consumer complaints filed with the FDIC against banks for various reason, and wanted to be able to display this data in a way that was easy to access and understand as a user. Turning the CSV into usable JSON data and creating backend routes and filters for this large database was a huge but rewarding challenge.  I learned a bit better how to handle large amounts of data to create a fluid user experience. </p>
+                <p>Technologies used were Vue.js, Vuetify, Charts.js, Firebase, MongoDB, Monk, Express, Heroku.</p>
+                <p><a href='https://github.com/hayz999/BankOnIt' target='_blank'>GitHub Repo</a></p>
+                <p><a href='https://bankonit-app.firebaseapp.com/#/' target='_blank'>Link to Site</a></p>
+              </Modal.Description>
+            </Modal.Content>
+          </Modal>
+        </Segment>
       <Segment color='green' className='card-content'>
           <Modal trigger={
             <Image className='project-image' src='./assets/zenGallery.png' size='big' />} closeIcon>
